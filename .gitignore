@@ -1,0 +1,21 @@
+# Go build outputs
+/blog_aggregator
+/bin/
+/dist/
+*.test
+*.out
+*.prof
+coverage.out
+
+# Local Go build cache
+/.gocache/
+
+# Local configuration and secrets
+/.gatorconfig.json
+/.env
+/.env.*
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
